@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unite_mesures",
+  "info": {
+    "singularName": "unite-mesure",
+    "pluralName": "unite-mesures",
+    "displayName": "Unite_mesure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "libelle": {
+      "type": "string"
+    },
+    "symbole": {
+      "type": "string"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    }
+  }
+}

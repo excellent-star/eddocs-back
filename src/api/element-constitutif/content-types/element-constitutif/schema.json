@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "element_constitutifs",
+  "info": {
+    "singularName": "element-constitutif",
+    "pluralName": "element-constitutifs",
+    "displayName": "Element_constitutif",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "libelle": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Texte",
+        "Nombre",
+        "Image",
+        "Video"
+      ]
+    }
+  }
+}

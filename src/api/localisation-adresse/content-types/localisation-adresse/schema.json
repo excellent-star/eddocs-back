@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "localisation_adresses",
+  "info": {
+    "singularName": "localisation-adresse",
+    "pluralName": "localisation-adresses",
+    "displayName": "localisation_adresse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ville": {
+      "type": "string"
+    },
+    "province": {
+      "type": "string"
+    },
+    "departement": {
+      "type": "string"
+    },
+    "arrondissement": {
+      "type": "string"
+    },
+    "lieu_dit": {
+      "type": "string"
+    },
+    "adresse": {
+      "type": "text"
+    },
+    "bp": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "site_web": {
+      "type": "text"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "societes",
+  "info": {
+    "singularName": "societe",
+    "pluralName": "societes",
+    "displayName": "Societe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "raison_sociale": {
+      "type": "string"
+    },
+    "sigle": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "num_registre": {
+      "type": "string"
+    },
+    "nif": {
+      "type": "string"
+    },
+    "num_contribuable": {
+      "type": "string"
+    },
+    "num_cnss": {
+      "type": "string"
+    },
+    "num_cnamgs": {
+      "type": "string"
+    },
+    "date_creation": {
+      "type": "date"
+    },
+    "date_mise_service": {
+      "type": "date"
+    },
+    "date_effective": {
+      "type": "date"
+    },
+    "date_immatriculation": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    }
+  }
+}

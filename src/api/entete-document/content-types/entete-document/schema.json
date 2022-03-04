@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entete_documents",
+  "info": {
+    "singularName": "entete-document",
+    "pluralName": "entete-documents",
+    "displayName": "Entete_document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "libelle": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    }
+  }
+}

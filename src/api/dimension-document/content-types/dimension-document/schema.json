@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dimension_documents",
+  "info": {
+    "singularName": "dimension-document",
+    "pluralName": "dimension-documents",
+    "displayName": "Dimension_document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "largeur": {
+      "type": "integer"
+    },
+    "longueur": {
+      "type": "integer"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    }
+  }
+}

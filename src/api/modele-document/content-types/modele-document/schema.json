@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modele_documents",
+  "info": {
+    "singularName": "modele-document",
+    "pluralName": "modele-documents",
+    "displayName": "Modele_document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "libelle": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    }
+  }
+}

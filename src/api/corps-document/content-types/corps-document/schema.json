@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corps_documents",
+  "info": {
+    "singularName": "corps-document",
+    "pluralName": "corps-documents",
+    "displayName": "Corps_document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "libelle": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    }
+  }
+}

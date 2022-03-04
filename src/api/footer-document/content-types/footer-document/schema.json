@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_documents",
+  "info": {
+    "singularName": "footer-document",
+    "pluralName": "footer-documents",
+    "displayName": "Pied_document"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "libelle": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "statut": {
+      "type": "boolean"
+    },
+    "etat": {
+      "type": "boolean"
+    }
+  }
+}
