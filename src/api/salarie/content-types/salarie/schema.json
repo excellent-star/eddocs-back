@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "salaries",
+  "info": {
+    "singularName": "salarie",
+    "pluralName": "salaries",
+    "displayName": "salarie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Matricule": {
+      "type": "string"
+    },
+    "Civilite": {
+      "type": "string"
+    },
+    "Nom": {
+      "type": "string"
+    },
+    "Prenom": {
+      "type": "string"
+    },
+    "NomJeuneFille": {
+      "type": "string"
+    },
+    "Rue": {
+      "type": "string"
+    },
+    "Commune": {
+      "type": "string"
+    },
+    "SituationFamiliale": {
+      "type": "string"
+    },
+    "societe": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::societe.societe",
+      "inversedBy": "salaries"
+    },
+    "Statut": {
+      "type": "string"
+    },
+    "CodePostale": {
+      "type": "string"
+    },
+    "NumSalarie": {
+      "type": "biginteger"
+    },
+    "DateDebutService": {
+      "type": "string"
+    },
+    "DateFinService": {
+      "type": "string"
+    }
+  }
+}

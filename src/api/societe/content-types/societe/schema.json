@@ -56,6 +56,30 @@
     },
     "etat": {
       "type": "boolean"
+    },
+    "responsable": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "societe"
+    },
+    "salaries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::salarie.salarie",
+      "mappedBy": "societe"
+    },
+    "rubriques": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::rubrique.rubrique",
+      "mappedBy": "societe"
+    },
+    "affectations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::affectation.affectation",
+      "mappedBy": "societe"
     }
   }
 }

@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rubriques",
+  "info": {
+    "singularName": "rubrique",
+    "pluralName": "rubriques",
+    "displayName": "Rubrique",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdRub": {
+      "type": "string"
+    },
+    "CodeRubrique": {
+      "type": "string"
+    },
+    "TypeRubrique": {
+      "type": "string"
+    },
+    "CodePostale": {
+      "type": "string"
+    },
+    "Intitule": {
+      "type": "string"
+    },
+    "Memo": {
+      "type": "string"
+    },
+    "societe": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::societe.societe",
+      "inversedBy": "rubriques"
+    },
+    "TauxSalariale": {
+      "type": "float"
+    },
+    "MontantSalariale": {
+      "type": "biginteger"
+    },
+    "TauxPatronale": {
+      "type": "float"
+    },
+    "MontantPatronale": {
+      "type": "float"
+    },
+    "Plafond": {
+      "type": "biginteger"
+    }
+  }
+}

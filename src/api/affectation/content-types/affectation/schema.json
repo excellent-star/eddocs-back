@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "affectations",
+  "info": {
+    "singularName": "affectation",
+    "pluralName": "affectations",
+    "displayName": "Affectation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdAddect": {
+      "type": "string"
+    },
+    "societe": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::societe.societe",
+      "inversedBy": "affectations"
+    },
+    "NumSalarie": {
+      "type": "integer"
+    },
+    "CodeRubrique": {
+      "type": "string"
+    },
+    "DateHist": {
+      "type": "string"
+    },
+    "ValeurNombre": {
+      "type": "biginteger"
+    },
+    "ValeurBase": {
+      "type": "biginteger"
+    },
+    "ValeurMontant": {
+      "type": "biginteger"
+    }
+  }
+}
